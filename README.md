@@ -8,9 +8,12 @@ that supports Gradle, do right click on the file, and then click "run {fileName}
 
 ### How to run the app
 
-1- Check out the GitHub project from:
+1- Check out /clone the GitHub project from: https://github.com/deam31/transformer
 
-2- Open a command line console and go to relative directory: transformer\build\libs\
+2- Open a command line console, go to the cloned directory, run: gradle clean build (we're assuming Gradle is installed in your computer)
+Note: You could also open the project with any IDE that supports Gradle, and run "clean build" in the IDE user interface.
+
+3- Go to relative directory: transformer\build\libs\
 
 3- Run: java -jar transformer-0.0.1-SNAPSHOT.jar
 
@@ -20,7 +23,7 @@ that supports Gradle, do right click on the file, and then click "run {fileName}
 5- Once the console shows "Tomcat started on port(s): 8000", open a Web browser and access:
 http://localhost:8000/swagger-ui/index.html?docExpansion=list#/
 
-5- At this point you should see the UI to interact with the app -> Backend Developer Technical Test.
+5- At this point you should see the UI to interact with the app "Backend Developer Technical Test"
 
 
 ### How to list all transformers
