@@ -17,8 +17,8 @@ Note: You could also open the project with any IDE that supports Gradle, and run
 
 3- Run: java -jar transformer-0.0.1-SNAPSHOT.jar
 
-4- If transformer-0.0.1-SNAPSHOT.jar is not present, run command "gradle clean build"
-(we are assuming gradle is installed in the computer) and do step 2.
+4- (Alternatively, you could open de project with any IDE that supports Gradle, run "clean build" in the IDE user interface,
+    then run the app as "Java Application") 
 
 5- Once the console shows "Tomcat started on port(s): 8000", open a Web browser and access:
 http://localhost:8000/swagger-ui/index.html?docExpansion=list#/
